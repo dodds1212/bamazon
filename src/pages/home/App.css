@@ -12,6 +12,7 @@ header {
 main {
   background-color: pink;
   flex-grow: 2;
+  flex-wrap: wrap;
 }
 footer {
   background-color: green;

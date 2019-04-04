@@ -1,4 +1,4 @@
-.App {
+.Home-page {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,8 +12,20 @@ header {
 main {
   background-color: pink;
   flex-grow: 2;
+  flex-direction: row;
+  justify-content: space-between;
 }
 footer {
   background-color: green;
   flex-grow: 1;
+}
+.left {
+  width: 150px;
+  height: 150px;
+  background-color: burlywood;
+}
+.right {
+  width: 150px;
+  height: 150px;
+  background-color: powderblue;
 }
